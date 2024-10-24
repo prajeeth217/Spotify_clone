@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify_clone</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon"
+        href="./img/png-clipart-spotify-logo-streaming-media-music-spotify-logo-text-business-removebg-preview.png">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="nav">
+        <!-- logo -->
+        <div class="logo">
+            <a href=""><img id="logo_img" src="./img/logo-new.png" alt=""></a>
+        </div>
+        <div class="icons">
+            <ul>
+                <li id="home">
+                    <a href=""><span id="home_icon_span"><i class='bx bx-home-alt-2'></i></span>
+                        <span id="home_font_span">Home</span></a>
+                </li>
+                <li id="search">
+                    <a href=""><span id="serach_icon_span"><i class='bx bx-search-alt-2'></i></span>
+                        <span id="search_font_span">Search</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- sidebar -->
+    <div class="sidebar">
+        <div class="library">
+            <a id="library_icon" href=""><i class='bx bx-library'></i></a>
+            <h3 id="library_text"> Your library</h3>
+            <a id="plus_icon" href=""><i class='bx bx-plus'></i></a>
+        </div>
+        <div class="scroll">
+            <div class="scroll_playlist">
+                <h3>Create Your First Playlist</h3>
+                <p>Its very easy,we'll help you.</p>
+                <button>Create playlist</button>
+            </div>
+            <div class="scroll_playlist">
+                <h3>Create Your First Playlist</h3>
+                <p>Its very easy,we'll help you.</p>
+                <button>Create playlist</button>
+            </div>
+        </div>
+        <!-- liscences -->
+        <div class="policy">
+            <ul>
+                <li>
+                    <a href="">Legal</a>
+                    <a href="">Safety & Privacy center</a>
+                    <a href="">Privacy policy</a>
+                </li>
+                <li>
+                    <a href="">Coockies</a>
+                    <a href="">About Us</a>
+                    <a href="">Accessibility</a>
+                </li>
+                <li>
+                    <a href="">Cookies</a>
+                </li>
+            </ul>
+            <button id="english_bt">English</button>
+        </div>
+    </div>
+
+    <!-- mainpage -->
+
+    <div class="mainpage">
+        <div class="topnav">
+            <button class="arrow_bt"><i class='bx bxs-chevron-left'></i></button>
+            <button class="arrow_bt"><i class='bx bxs-chevron-right'></i></button>
+            <button id="signup">Sign-up</button>
+            <button id="login">Login</button>
+        </div>
+        <div class="heading">
+            <h2>Popular Albums</h2>
+            <p>Show all</p>
+        </div>
+        <div class="playlist">
+
+
+            <div class="card">
+                <div class="image">
+                    <img src="./img/item-1.jpg" alt="">
+                    <a href="">
+                        <h4>Lofi Beats</h4>
+                    </a>
+                    <a href="">
+                        <p>Pritham Singh</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <img src="./img/item-2.jpg" alt="">
+                    <a href="">
+                        <h4>Hollywood Beats</h4>
+                    </a>
+                    <a href="">
+                        <p>Shakira</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <img src="./img/item-3.jpg" alt="">
+                    <a href="">
+                        <h4>Beach days</h4>
+                    </a>
+                    <a href="">
+                        <p>Tailor Swift</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <img src="./img/item-4.jpg" alt="">
+                    <a href="">
+                        <h4>Party Smasher</h4>
+                    </a>
+                    <a href="">
+                        <p>Akon</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="image">
+                    <img src="./img/item-5.jpg" alt="">
+                    <a href="">
+                        <h4>1980</h4>
+                    </a>
+                    <a href="">
+                        <p>Marshell Wagon</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="image">
+                    <img src="./img/item-7.jpg" alt="">
+                    <a href="">
+                        <h4>Punjabi Banger</h4>
+                    </a>
+                    <a href="">
+                        <p>Sonu Pattel</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="heading">
+            <h2>Popular radio</h2>
+            <p>Show all</p>
+        </div>
+        <div class="playlist">
+
+
+            <div class="card">
+                <div class="image">
+                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"
+                        alt="">
+                    <a href="">
+                        <p>With sachin-jigar,Atif Aslam,Mithoon and more</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0GF4shudTAFv8ak9eWdd4Y/en"
+                        alt="">
+                    <a href="">
+                        <p>With Mohammed Rafi,Mukshesh,Asha Bhosle and more</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en"
+                        alt="">
+                    <a href="">
+                        <p>With Karan Auja,Shubh and more</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en"
+                        alt="">
+                    <a href="">
+                        <p>With kk and more</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="image">
+                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2ae6PxICSOZHvjqiCcgon8/en"
+                        alt="">
+                    <a href="">
+                        <p>With AR Rahman,Sonu Nigam and more</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="image">
+                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1mYsTxnqsietFxj1OgoGbG/en"
+                        alt="">
+
+                    <a href="">
+                        <p>With G.V Praksh,Harris Jayaraj and more</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="heading">
+            <h2>Featured Charts</h2>
+            <p>Show all</p>
+        </div>
+        <div class="playlist">
+
+
+            <div class="card">
+                <div class="image">
+                    <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                        alt="">
+                    <a href="">
+                        <p>Your daily update of the most played...</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_us_default.jpg"
+                        alt="">
+                    <a href="">
+                        <p>Your daily update of the most played...</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg"
+                        alt="">
+                    <a href="">
+                        <p>Your daily update of the most played...</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_default.jpg"
+                        alt="">
+                    <a href="">
+                        <p>Your daily update of the most played...</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="image">
+                    <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg"
+                        alt="">
+                    <a href="">
+                        <p>Your daily update of the most played...</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="image">
+                    <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_us_default.jpg" alt="">
+                    <a href="">
+                        <p>Your daily update of the most played...</p>
+                    </a>
+                    <div class="play_bt">
+                        <span><i class='bx bx-play'></i></span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="footer_section">
+            <div class="footer">
+                <div class="fh">Company</div>
+                <ul class="ul">
+                    <li class="li">About</li>
+                    <li class="li">Jobs</li>
+                    <li class="li">For the Records</li>
+                </ul>
+            </div>
+
+            <div class="footer">
+                <div class="fh">Communities</div>
+                <ul class="ul">
+                    <li class="li">For artist</li>
+                    <li class="li">Developers</li>
+                    <li class="li">Advertising</li>
+                    <li class="li">Investors</li>
+                    <li class="li">Vendors</li>
+                </ul>
+            </div>
+
+            <div class="footer">
+                <div class="fh">Usefull links</div>
+                <ul class="ul">
+                    <li class="li">Support</li>
+                    <li class="li">Free Mobile Apps</li>
+                </ul>
+            </div>
+            
+        </div>
+        <hr>
+        
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
